@@ -1,2 +1,2 @@
-# workshp-javafx-jdbc
+# workshop-javafx-jdbc
 Udemy course
