@@ -9,9 +9,9 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<VBox prefHeight="372.0" prefWidth="402.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.DepartmentListController">
+<VBox prefHeight="388.0" prefWidth="440.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.DepartmentListController">
    <children>
-      <Label prefHeight="37.0" prefWidth="175.0" text=" Department Registration">
+      <Label text="Department Registration">
          <font>
             <Font name="System Bold" size="14.0" />
          </font>
@@ -26,10 +26,10 @@
       </ToolBar>
       <TableView fx:id="tableViewDepartment" prefHeight="200.0" prefWidth="200.0">
         <columns>
-          <TableColumn fx:id="tableColumnId" prefWidth="75.0" text="id" />
+          <TableColumn fx:id="tableColumnId" prefWidth="75.0" text="Id" />
           <TableColumn fx:id="tableColumnName" prefWidth="75.0" text="Name" />
-          <TableColumn fx:id="tableColumnEDIT" prefWidth="75.0" />
-          <TableColumn fx:id="tableColumnREMOVE" prefWidth="75.0" />
+            <TableColumn fx:id="tableColumnEDIT" prefWidth="75.0" />
+            <TableColumn fx:id="tableColumnREMOVE" prefWidth="75.0" />
         </columns>
       </TableView>
    </children>
